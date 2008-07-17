@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - DB interface to LDAP server
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -16,7 +16,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The PEAR::DB_ldap class provides a DB compliant interface to LDAP
