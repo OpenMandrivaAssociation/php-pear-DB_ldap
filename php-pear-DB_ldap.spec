@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.2.1
-Release:	3
+Release:	4
 Summary:	DB interface to LDAP server
 License:	PHP License
 Group:		Development/PHP
